@@ -17,3 +17,7 @@ iiwa-2:
 wei:
   wei:
     path_to_data_directory: '/home/wei/data'
+
+jan-ThinkPad-P50:
+  jan:
+    path_to_data_directory: '/home/jan/pytorch-dense-correspondence/'

@@ -29,9 +29,12 @@ pip install -U setuptools
 apt-get -y install ipython ipython-notebook
 pip install \
   jupyter \
-  opencv-python \
+  opencv-python==4.1.0.25\
   plyfile \
   pandas \
   tensorflow \
   future \
-  typing
+  typing \
+  qtconsole==4.5.3 \
+  nbconvert==5.4.0 \
+  jsonschema==2.6.0
