@@ -23,18 +23,20 @@ apt install --no-install-recommends \
   cmake-curses-gui \
   libyaml-dev
 
-pip install --upgrade pip==9.0.3
+apt-get install -y python-setuptools
+#pip install --upgrade pip==9.0.3
+#apt-get install python-setuptools
+#pip install --upgrade pip
+pip install --upgrade pip==20.3.4
 pip install -U setuptools
 
-apt-get -y install ipython ipython-notebook
 pip install \
   jupyter \
-  opencv-python==4.1.0.25\
+  opencv-python==4.2.0.32\
   plyfile \
   pandas \
   tensorflow \
   future \
-  typing \
-  qtconsole==4.5.3 \
-  nbconvert==5.4.0 \
-  jsonschema==2.6.0
+  typing
+
+  apt-get -y install ipython ipython-notebook
